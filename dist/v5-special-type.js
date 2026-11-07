@@ -20,4 +20,9 @@ const AnotherGreet = () => {
 };
 const greeting = AnotherGreet();
 console.log(greeting);
+// bottom type 
+const getEroor = (meg) => {
+    throw new Error(meg);
+};
+const x = getEroor("ABC");
 export {};
